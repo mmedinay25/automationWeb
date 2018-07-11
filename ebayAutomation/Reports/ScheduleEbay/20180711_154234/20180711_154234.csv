@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ScheduleEbay,Chrome 67.0.3396.99,,2018-07-11 15:42:40,2018-07-11 15:43:48,"1m - 7,942s",PASSED
+,,,,,,
+Test Cases/ebayExercise,Chrome 67.0.3396.99,,2018-07-11 15:42:41,2018-07-11 15:42:59,"18,538s",PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 15:42:41,2018-07-11 15:42:47,"5,723s",PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-11 15:42:47,2018-07-11 15:42:48,"1,153s",PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-11 15:42:48,2018-07-11 15:42:48,"0,518s",PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 15:42:48,2018-07-11 15:42:49,"0,124s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:42:49,2018-07-11 15:42:49,"0,555s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:42:49,2018-07-11 15:42:51,"1,968s",PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 15:42:51,2018-07-11 15:42:51,"0,040s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:42:51,2018-07-11 15:42:53,"1,524s",PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 15:42:53,2018-07-11 15:42:55,"2,024s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:42:55,2018-07-11 15:42:55,"0,384s",PASSED
+Statement - resultados = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Catalogo/lblResultado)),Chrome 67.0.3396.99,,2018-07-11 15:42:55,2018-07-11 15:42:55,"0,099s",PASSED
+"Statement - println(""Nro. resultados => "" + resultados)",Chrome 67.0.3396.99,,2018-07-11 15:42:55,2018-07-11 15:42:55,"0,003s",PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-11 15:42:55,2018-07-11 15:42:55,"0,081s",PASSED
+verifyElementClickable,Chrome 67.0.3396.99,,2018-07-11 15:42:55,2018-07-11 15:42:55,"0,088s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:42:55,2018-07-11 15:42:56,"0,349s",PASSED
+mouseOver,Chrome 67.0.3396.99,,2018-07-11 15:42:56,2018-07-11 15:42:56,"0,095s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:42:56,2018-07-11 15:42:57,"1,380s",PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 15:42:57,2018-07-11 15:42:57,"0,010s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:42:57,2018-07-11 15:42:58,"0,345s",PASSED
+Statement - obtenerListaProductos(5),Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:58,"0,000s",PASSED
+Statement - listaProductos = [],Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:58,"0,000s",PASSED
+"Statement - producto = """"",Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:58,"0,001s",PASSED
+"Statement - precio = """"",Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:58,"0,000s",PASSED
+"Statement - envio = """"",Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:58,"0,000s",PASSED
+"Statement - productos = """"",Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:58,"0,001s",PASSED
+"Statement - For ([i = 1, i <= cantidad, (i++)])",Chrome 67.0.3396.99,,2018-07-11 15:42:58,2018-07-11 15:42:59,"1,046s",PASSED
+"Statement - listaProductos.eachWithIndex({ java.lang.Object val, java.lang.Object idx -> ... })",Chrome 67.0.3396.99,,2018-07-11 15:42:59,2018-07-11 15:42:59,"0,015s",PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-11 15:42:59,2018-07-11 15:42:59,"0,641s",PASSED
+,,,,,,
+Test Cases/ebayExercise,Chrome 67.0.3396.99,,2018-07-11 15:42:59,2018-07-11 15:43:28,"28,403s",PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 15:42:59,2018-07-11 15:43:14,"14,826s",PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-11 15:43:14,2018-07-11 15:43:15,"1,119s",PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-11 15:43:15,2018-07-11 15:43:16,"0,519s",PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 15:43:16,2018-07-11 15:43:16,"0,120s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:16,2018-07-11 15:43:16,"0,492s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:43:16,2018-07-11 15:43:18,"2,033s",PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 15:43:18,2018-07-11 15:43:18,"0,018s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:43:18,2018-07-11 15:43:20,"1,942s",PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 15:43:20,2018-07-11 15:43:22,"2,002s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:22,2018-07-11 15:43:23,"0,452s",PASSED
+Statement - resultados = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Catalogo/lblResultado)),Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:23,"0,113s",PASSED
+"Statement - println(""Nro. resultados => "" + resultados)",Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:23,"0,000s",PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:23,"0,024s",PASSED
+verifyElementClickable,Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:23,"0,081s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:23,"0,349s",PASSED
+mouseOver,Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:23,"0,064s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:43:23,2018-07-11 15:43:25,"1,968s",PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 15:43:25,2018-07-11 15:43:25,"0,025s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:25,2018-07-11 15:43:26,"0,454s",PASSED
+Statement - obtenerListaProductos(5),Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:26,"0,001s",PASSED
+Statement - listaProductos = [],Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:26,"0,000s",PASSED
+"Statement - producto = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:26,"0,001s",PASSED
+"Statement - precio = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:26,"0,000s",PASSED
+"Statement - envio = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:26,"0,001s",PASSED
+"Statement - productos = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:26,"0,000s",PASSED
+"Statement - For ([i = 1, i <= cantidad, (i++)])",Chrome 67.0.3396.99,,2018-07-11 15:43:26,2018-07-11 15:43:27,"1,131s",PASSED
+"Statement - listaProductos.eachWithIndex({ java.lang.Object val, java.lang.Object idx -> ... })",Chrome 67.0.3396.99,,2018-07-11 15:43:27,2018-07-11 15:43:27,"0,000s",PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-11 15:43:27,2018-07-11 15:43:28,"0,634s",PASSED
+,,,,,,
+Test Cases/ebayExercise,Chrome 67.0.3396.99,,2018-07-11 15:43:28,2018-07-11 15:43:48,"20,630s",PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 15:43:28,2018-07-11 15:43:34,"6,288s",PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-11 15:43:34,2018-07-11 15:43:35,"1,137s",PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-11 15:43:35,2018-07-11 15:43:36,"0,462s",PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 15:43:36,2018-07-11 15:43:36,"0,110s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:36,2018-07-11 15:43:36,"0,476s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:43:36,2018-07-11 15:43:38,"2,277s",PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 15:43:38,2018-07-11 15:43:38,"0,009s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:43:38,2018-07-11 15:43:41,"2,217s",PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 15:43:41,2018-07-11 15:43:43,"2,002s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:43,2018-07-11 15:43:43,"0,432s",PASSED
+Statement - resultados = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Catalogo/lblResultado)),Chrome 67.0.3396.99,,2018-07-11 15:43:43,2018-07-11 15:43:43,"0,039s",PASSED
+"Statement - println(""Nro. resultados => "" + resultados)",Chrome 67.0.3396.99,,2018-07-11 15:43:43,2018-07-11 15:43:43,"0,000s",PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-11 15:43:43,2018-07-11 15:43:43,"0,031s",PASSED
+verifyElementClickable,Chrome 67.0.3396.99,,2018-07-11 15:43:43,2018-07-11 15:43:43,"0,034s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:43,2018-07-11 15:43:44,"0,423s",PASSED
+mouseOver,Chrome 67.0.3396.99,,2018-07-11 15:43:44,2018-07-11 15:43:44,"0,090s",PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 15:43:44,2018-07-11 15:43:46,"2,451s",PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 15:43:46,2018-07-11 15:43:46,"0,023s",PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 15:43:46,2018-07-11 15:43:47,"0,452s",PASSED
+Statement - obtenerListaProductos(5),Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:47,"0,000s",PASSED
+Statement - listaProductos = [],Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:47,"0,000s",PASSED
+"Statement - producto = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:47,"0,000s",PASSED
+"Statement - precio = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:47,"0,000s",PASSED
+"Statement - envio = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:47,"0,001s",PASSED
+"Statement - productos = """"",Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:47,"0,000s",PASSED
+"Statement - For ([i = 1, i <= cantidad, (i++)])",Chrome 67.0.3396.99,,2018-07-11 15:43:47,2018-07-11 15:43:48,"1,032s",PASSED
+"Statement - listaProductos.eachWithIndex({ java.lang.Object val, java.lang.Object idx -> ... })",Chrome 67.0.3396.99,,2018-07-11 15:43:48,2018-07-11 15:43:48,"0,001s",PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-11 15:43:48,2018-07-11 15:43:48,"0,623s",PASSED
