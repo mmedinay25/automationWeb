@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ebayExercise</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b710371e-39a9-4e93-a70f-5e4892f829f4</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.ebay.com/'</defaultValue>
+      <description></description>
+      <id>74f3e37f-da22-4dea-9185-fb53efd306a1</id>
+      <masked>false</masked>
+      <name>varUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5bb763a0-ff81-4005-ae86-06e7c04132b5</id>
+      <masked>false</masked>
+      <name>varCategoria</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0fc063ff-620f-4a22-96c6-0d5ab3e34d17</id>
+      <masked>false</masked>
+      <name>varArticulo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>571135a0-2794-4e8c-a5f1-d99f045b5fab</id>
+      <masked>false</masked>
+      <name>varTalla</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91385846-91ff-4b98-a66f-a649b530f05e</id>
+      <masked>false</masked>
+      <name>varOrdenamiento</name>
+   </variable>
+</TestCaseEntity>

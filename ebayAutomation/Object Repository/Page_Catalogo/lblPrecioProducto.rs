@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lblPrecioProducto</name>
+   <tag></tag>
+   <elementGuidId>bff85169-6a70-4550-8448-eb7376c1da27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='srp-river-results-listing${indexPrecio}']/div/div[2]/div[3]/div[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='srp-river-results-listing${indexPrecio}']/div/div[2]/div[3]/div[1]/span</value>
+   </webElementProperties>
+</WebElementEntity>

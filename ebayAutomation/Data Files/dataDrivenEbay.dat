@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>dataDrivenEbay</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>40c6b6a2-c653-4a9a-a058-3ba297bf396d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>11450 PUMA 10 Precio+%2B+Env%C3%ADo%3A+m%C3%A1s+bajo+primero Verificar+ordenamiento+de+productos+en+orden+ascendente</data>
+   <data>11450 PUMA 10 Duraci%C3%B3n%3A+primeros+en+finalizar Verificar+ordenamiento+de+productos+por+nombre+-+duraci%C3%B3n</data>
+   <data>11450 PUMA 10 Precio+%2B+Env%C3%ADo%3A+m%C3%A1s+alto+primero Verificar+ordenamiento+de+productos+en+orden+descendente</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>categoria</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>articulo</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>talla</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>ordenamiento</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>descripcion_casoPrueba</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

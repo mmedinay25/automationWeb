@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ScheduleEbay</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-07-11T14:41:08</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2bdb7d60-31ea-45e4-a195-a37b81490f23</testSuiteGuid>
+   <testCaseLink>
+      <guid>945375ef-56ab-4db4-97c4-566b15aeca2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ebayExercise</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>2fbc556d-cd42-40d8-9616-0038da605713</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dataDrivenEbay</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>2fbc556d-cd42-40d8-9616-0038da605713</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>categoria</value>
+         <variableId>5bb763a0-ff81-4005-ae86-06e7c04132b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fbc556d-cd42-40d8-9616-0038da605713</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>articulo</value>
+         <variableId>0fc063ff-620f-4a22-96c6-0d5ab3e34d17</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fbc556d-cd42-40d8-9616-0038da605713</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>talla</value>
+         <variableId>571135a0-2794-4e8c-a5f1-d99f045b5fab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fbc556d-cd42-40d8-9616-0038da605713</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ordenamiento</value>
+         <variableId>91385846-91ff-4b98-a66f-a649b530f05e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>74f3e37f-da22-4dea-9185-fb53efd306a1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

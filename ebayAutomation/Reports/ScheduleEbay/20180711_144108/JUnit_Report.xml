@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ScheduleEbay" time="66" tests="3" failures="0" errors="0">
+   <testsuite name="ScheduleEbay" tests="3" failures="0" errors="0" time="66" timestamp="2018-07-11 14:41:14" hostname="mmedina - ALGgaf016.ALIGNET.com" id="Test Suites/ScheduleEbay">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ALIGNET\\automationweb\\ebayAutomation\\Reports\\ScheduleEbay\\20180711_144108"/>
+         <property name="logFiles" value="D:\\ALIGNET\\automationweb\\ebayAutomation\\Reports\\ScheduleEbay\\20180711_144108\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mmedina - ALGgaf016.ALIGNET.com"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.198.1"/>
+         <property name="sessionId" value="da609d5fef26e87583166e9f721bbe83"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/ebayExercise" classname="Test Cases/ebayExercise" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:41:14 - [TEST_CASE][PASSED] - Test Cases/ebayExercise: Test Cases/ebayExercise
+
+2018-07-11 14:41:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.ebay.com/'
+
+2018-07-11 14:41:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ebay.com/'
+
+2018-07-11 14:41:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 14:41:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 14:41:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11450' are selected in object 'Object Repository/Page_Home/cmbCategoria'  using regular expression
+
+2018-07-11 14:41:26 - [MESSAGE][PASSED] - All options with value '11450' are selected in object 'Object Repository/Page_Home/cmbCategoria'  using regular expression
+
+2018-07-11 14:41:26 - [TEST_STEP][PASSED] - setText: Text 'PUMA' is set on object 'Object Repository/Page_Home/txtArticuloBuscar'
+
+2018-07-11 14:41:26 - [MESSAGE][PASSED] - Text 'PUMA' is set on object 'Object Repository/Page_Home/txtArticuloBuscar'
+
+2018-07-11 14:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home/btnBuscar' is clicked on
+
+2018-07-11 14:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/btnBuscar' is clicked on
+
+2018-07-11 14:41:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 14:41:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 14:41:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Catalogo/cbxTalla' is clicked on
+
+2018-07-11 14:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cbxTalla' is clicked on
+
+2018-07-11 14:41:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 14:41:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 14:41:34 - [TEST_STEP][PASSED] - Statement - resultados = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Catalogo/lblResultado)): Text of object 'Object Repository/Page_Catalogo/lblResultado' is: '5,185 resultados'
+
+2018-07-11 14:41:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblResultado' is: '5,185 resultados'
+
+2018-07-11 14:41:34 - [TEST_STEP][PASSED] - Statement - println("Nro. resultados => " + resultados): null
+
+2018-07-11 14:41:34 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Catalogo/cbxTalla' successfully
+
+2018-07-11 14:41:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Catalogo/cbxTalla' successfully
+
+2018-07-11 14:41:34 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Catalogo/cbxTalla' is clickable
+
+2018-07-11 14:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Catalogo/cbxTalla' is clickable
+
+2018-07-11 14:41:34 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Catalogo/cmbOrdenamiento' is hovered
+
+2018-07-11 14:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cmbOrdenamiento' is hovered
+
+2018-07-11 14:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Catalogo/cmbValorOrdenamiento' is clicked on
+
+2018-07-11 14:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cmbValorOrdenamiento' is clicked on
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 14:41:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - obtenerListaProductos(5): null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - listaProductos = []: null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - producto = "": null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - precio = "": null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - envio = "": null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - productos = "": null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= cantidad, (i++)]): null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Sandalias Ojotas Puma para hombre negro y rojo Size UK 7,8,9'
+
+2018-07-11 14:41:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Sandalias Ojotas Puma para hombre negro y rojo Size UK 7,8,9'
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 98.20'
+
+2018-07-11 14:41:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 98.20'
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: 'Envío gratis'
+
+2018-07-11 14:41:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: 'Envío gratis'
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Pop Cat diapositivas (36026523) Sandalias De Playa Flip Flop Zapatos Zapatillas diapositiva'
+
+2018-07-11 14:41:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Pop Cat diapositivas (36026523) Sandalias De Playa Flip Flop Zapatos Zapatillas diapositiva'
+
+2018-07-11 14:41:36 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 107.69'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 107.69'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: 'Envío gratis'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: 'Envío gratis'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Pre Puma para hombre starcat Tech se Desliza Sandalias Flipflop con Eva! Elige Tamaño Y Color'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Pre Puma para hombre starcat Tech se Desliza Sandalias Flipflop con Eva! Elige Tamaño Y Color'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 42.52'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 42.52'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 76.92 por el envío'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 76.92 por el envío'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Para mujer Pumas Flip Flops Tamaño 10 estilo #P108188-038'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Para mujer Pumas Flip Flops Tamaño 10 estilo #P108188-038'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 58.89'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 58.89'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 73.09 por el envío'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 73.09 por el envío'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Nuevo Puma Para hombres starcat Tech se Desliza Sandalias Flipflop con Eva! Elige Tamaño Y Color'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Nuevo Puma Para hombres starcat Tech se Desliza Sandalias Flipflop con Eva! Elige Tamaño Y Color'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 55.62'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 55.62'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 76.92 por el envío'
+
+2018-07-11 14:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 76.92 por el envío'
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - Statement - listaProductos.eachWithIndex({ java.lang.Object val, java.lang.Object idx -> ... }): null
+
+2018-07-11 14:41:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 14:41:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ebayExercise" classname="Test Cases/ebayExercise" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:41:38 - [TEST_CASE][PASSED] - Test Cases/ebayExercise: Test Cases/ebayExercise
+
+2018-07-11 14:41:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.ebay.com/'
+
+2018-07-11 14:41:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ebay.com/'
+
+2018-07-11 14:41:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 14:41:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 14:41:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11450' are selected in object 'Object Repository/Page_Home/cmbCategoria'  using regular expression
+
+2018-07-11 14:41:48 - [MESSAGE][PASSED] - All options with value '11450' are selected in object 'Object Repository/Page_Home/cmbCategoria'  using regular expression
+
+2018-07-11 14:41:48 - [TEST_STEP][PASSED] - setText: Text 'PUMA' is set on object 'Object Repository/Page_Home/txtArticuloBuscar'
+
+2018-07-11 14:41:48 - [MESSAGE][PASSED] - Text 'PUMA' is set on object 'Object Repository/Page_Home/txtArticuloBuscar'
+
+2018-07-11 14:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home/btnBuscar' is clicked on
+
+2018-07-11 14:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/btnBuscar' is clicked on
+
+2018-07-11 14:41:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 14:41:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 14:41:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Catalogo/cbxTalla' is clicked on
+
+2018-07-11 14:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cbxTalla' is clicked on
+
+2018-07-11 14:41:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 14:41:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 14:41:59 - [TEST_STEP][PASSED] - Statement - resultados = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Catalogo/lblResultado)): Text of object 'Object Repository/Page_Catalogo/lblResultado' is: '5,194 resultados'
+
+2018-07-11 14:41:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblResultado' is: '5,194 resultados'
+
+2018-07-11 14:41:59 - [TEST_STEP][PASSED] - Statement - println("Nro. resultados => " + resultados): null
+
+2018-07-11 14:41:59 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Catalogo/cbxTalla' successfully
+
+2018-07-11 14:41:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Catalogo/cbxTalla' successfully
+
+2018-07-11 14:41:59 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Catalogo/cbxTalla' is clickable
+
+2018-07-11 14:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Catalogo/cbxTalla' is clickable
+
+2018-07-11 14:41:59 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Catalogo/cmbOrdenamiento' is hovered
+
+2018-07-11 14:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cmbOrdenamiento' is hovered
+
+2018-07-11 14:41:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Catalogo/cmbValorOrdenamiento' is clicked on
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cmbValorOrdenamiento' is clicked on
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - obtenerListaProductos(5): null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - listaProductos = []: null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - producto = "": null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - precio = "": null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - envio = "": null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - productos = "": null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= cantidad, (i++)]): null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Clyde natural Star Blanco De Hombre 363617-02'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Clyde natural Star Blanco De Hombre 363617-02'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 261.71'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 261.71'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 144.85 por el envío'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 144.85 por el envío'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Para Hombre PUMA Trinomic R698 tamaño 10 Atlético Running Show "Mazarine Azul/Teaberry"'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Para Hombre PUMA Trinomic R698 tamaño 10 Atlético Running Show "Mazarine Azul/Teaberry"'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 180.04'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 180.04'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: 'Devoluciones gratis'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: 'Devoluciones gratis'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Insignia Clásica Para Hombre De Gamuza Puma Helado-Naranja-Ancho: Med-tenis De Moda'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Insignia Clásica Para Hombre De Gamuza Puma Helado-Naranja-Ancho: Med-tenis De Moda'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 127.53'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 127.53'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 122.06 por el envío'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 122.06 por el envío'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Damas Con Cordones Zapatillas-Axis V3 Malla 357727'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Damas Con Cordones Zapatillas-Axis V3 Malla 357727'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 132.77'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 132.77'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 65.11 por el envío'
+
+2018-07-11 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 65.11 por el envío'
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:01 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Cell Surin 2 FM para hombre de cuero negro/plata que ejecutan Cross-Training Shoes'
+
+2018-07-11 14:42:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Cell Surin 2 FM para hombre de cuero negro/plata que ejecutan Cross-Training Shoes'
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 147.30'
+
+2018-07-11 14:42:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 147.30'
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 171.62 por el envío'
+
+2018-07-11 14:42:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 171.62 por el envío'
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - Statement - listaProductos.eachWithIndex({ java.lang.Object val, java.lang.Object idx -> ... }): null
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 14:42:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ebayExercise" classname="Test Cases/ebayExercise" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:42:02 - [TEST_CASE][PASSED] - Test Cases/ebayExercise: Test Cases/ebayExercise
+
+2018-07-11 14:42:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.ebay.com/'
+
+2018-07-11 14:42:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ebay.com/'
+
+2018-07-11 14:42:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 14:42:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 14:42:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11450' are selected in object 'Object Repository/Page_Home/cmbCategoria'  using regular expression
+
+2018-07-11 14:42:09 - [MESSAGE][PASSED] - All options with value '11450' are selected in object 'Object Repository/Page_Home/cmbCategoria'  using regular expression
+
+2018-07-11 14:42:09 - [TEST_STEP][PASSED] - setText: Text 'PUMA' is set on object 'Object Repository/Page_Home/txtArticuloBuscar'
+
+2018-07-11 14:42:09 - [MESSAGE][PASSED] - Text 'PUMA' is set on object 'Object Repository/Page_Home/txtArticuloBuscar'
+
+2018-07-11 14:42:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home/btnBuscar' is clicked on
+
+2018-07-11 14:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/btnBuscar' is clicked on
+
+2018-07-11 14:42:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 14:42:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 14:42:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Catalogo/cbxTalla' is clicked on
+
+2018-07-11 14:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cbxTalla' is clicked on
+
+2018-07-11 14:42:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 14:42:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 14:42:16 - [TEST_STEP][PASSED] - Statement - resultados = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Catalogo/lblResultado)): Text of object 'Object Repository/Page_Catalogo/lblResultado' is: '5,197 resultados'
+
+2018-07-11 14:42:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblResultado' is: '5,197 resultados'
+
+2018-07-11 14:42:16 - [TEST_STEP][PASSED] - Statement - println("Nro. resultados => " + resultados): null
+
+2018-07-11 14:42:16 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Catalogo/cbxTalla' successfully
+
+2018-07-11 14:42:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Catalogo/cbxTalla' successfully
+
+2018-07-11 14:42:16 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Catalogo/cbxTalla' is clickable
+
+2018-07-11 14:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Catalogo/cbxTalla' is clickable
+
+2018-07-11 14:42:16 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Catalogo/cmbOrdenamiento' is hovered
+
+2018-07-11 14:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cmbOrdenamiento' is hovered
+
+2018-07-11 14:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Catalogo/cmbValorOrdenamiento' is clicked on
+
+2018-07-11 14:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Catalogo/cmbValorOrdenamiento' is clicked on
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 14:42:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - obtenerListaProductos(5): null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - listaProductos = []: null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - producto = "": null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - precio = "": null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - envio = "": null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - productos = "": null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= cantidad, (i++)]): null
+
+2018-07-11 14:42:18 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Undefeated Undftd 24K Mid oro metálico metal líquido blanco 349567-01 Sz10'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Undefeated Undftd 24K Mid oro metálico metal líquido blanco 349567-01 Sz10'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 2 766.02'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 2 766.02'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 207.70 por el envío'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 207.70 por el envío'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Clyde X WWE "dinero en el banco" Colección maletín Limitada US talla 10 para hombre'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Clyde X WWE "dinero en el banco" Colección maletín Limitada US talla 10 para hombre'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 2 618.69'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 2 618.69'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 269.63 por el envío'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 269.63 por el envío'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma MCM Clásico Gamuza 50th Anniversary'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma MCM Clásico Gamuza 50th Anniversary'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 1 950.94 a S/. 2 114.61'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 1 950.94 a S/. 2 114.61'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 210.51 por el envío'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 210.51 por el envío'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Alexander McQueen Rocket Hombres Tenis X Talla 10'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Alexander McQueen Rocket Hombres Tenis X Talla 10'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 1 571.20'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 1 571.20'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 180.53 por el envío'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 180.53 por el envío'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - producto = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblDescripcionProducto, [indexProd:i])).replaceAll(",", " "): Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Mcm Gamuza Rojo Blanco Azul X'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblDescripcionProducto' is: 'Puma Mcm Gamuza Rojo Blanco Azul X'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - precio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblPrecioProducto, [indexPrecio:i])): Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 1 309.36'
+
+2018-07-11 14:42:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblPrecioProducto' is: 'S/. 1 309.36'
+
+2018-07-11 14:42:19 - [TEST_STEP][PASSED] - Statement - envio = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Catalogo/lblEnvio, [indexEnvio:i])): Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 208.35 por el envío'
+
+2018-07-11 14:42:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Catalogo/lblEnvio' is: '+S/. 208.35 por el envío'
+
+2018-07-11 14:42:20 - [TEST_STEP][PASSED] - Statement - productos = producto + " | " + precio + " " + envio: null
+
+2018-07-11 14:42:20 - [TEST_STEP][PASSED] - Statement - listaProductos.addAll(productos): null
+
+2018-07-11 14:42:20 - [TEST_STEP][PASSED] - Statement - listaProductos.eachWithIndex({ java.lang.Object val, java.lang.Object idx -> ... }): null
+
+2018-07-11 14:42:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 14:42:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 14:41:14 - [TEST_SUITE][PASSED] - ScheduleEbay: Test Cases/ebayExercise]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
